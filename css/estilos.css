@@ -100,7 +100,36 @@ footer p{
 
 .index-main{
   margin: 0%;
-  background-color: #8e9676ab;
+  background-color: #f5f5dc;
+}
+
+.efecto{
+  margin: auto;
+  display: table;
+}
+.efecto h2{
+  float: left;
+  color: #000000;
+  position: relative;
+  font-size: 2rem;
+}
+.efecto h2 span{
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #f5f5dc;
+  border-left: 1px solid #000;
+
+  animation: maquina 5s infinite alternate steps(30);
+}
+
+@keyframes maquina{
+  from{
+    width: 100%;
+  }
+  to{
+    width: 0%;
+  }
 }
 
 .section{
@@ -574,7 +603,13 @@ h3{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+  box-shadow: 0 4px 8px 0 #000000;
+  background-color: #f5f5f5;  
+}
+
+.product-container:hover{
+  box-shadow: 0 8px 16px 0 #000000;
 }
 
 .product-container h3{
@@ -595,6 +630,12 @@ h3{
   background-color: #f5f5f5;
   color: #000000;
   border: 2px solid;
+}
+
+.button-add:hover{
+  background-color: #f5f5dc;
+  transition-duration: 0.4s;
+  color: #000000;
 }
 
 /*CONTACTO*/
