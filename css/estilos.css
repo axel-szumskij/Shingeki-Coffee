@@ -13,9 +13,13 @@
 /*general nav*/
 /*NAV BOOTSTRAP*/
 .navbar{
-  position: sticky;
   top: 0;
   background-color: #f5f5dc;
+}
+
+.navbar img{
+  width: 150px;
+  height: 150px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -47,7 +51,7 @@ footer h6{
 
 footer p{
   color: #f5f5f5;
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin: 8px;
 }
 
@@ -61,9 +65,15 @@ footer p{
 .footer-divdos{
   padding: 1rem;
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: flex-end;
+  flex-direction: inherit;
   align-items: flex-end;
+}
+
+.footer-divdos i{
+  font-size: 2.5rem;
+  color: #ffffff;
+  padding: 10px;
 }
 
 .footer-divdos img{
@@ -568,61 +578,54 @@ h3{
   margin: 20px;
 }
 
+.shop-main{
+  background-color: #f5f5f5;
+}
+
 .page-content{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(9, 1fr);
   justify-items: center;
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;  
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;  
 }
 
-.page-container{
-  margin: 15px;
-  padding: 2px 16px;
-  position: relative;
-  box-shadow: 0 8px 16px 0 #000000;
-  background-color: #f5f5f5;
-}
-
-.product-container{
-  margin: 1em;
+.card {
+  width: 100%;
+  height: 550px;
+  position: inherit;
+  padding: 5px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 8px 0 #000000;
-  background-color: #f5f5f5;  
-}
-
-.product-container:hover{
-  box-shadow: 0 8px 16px 0 #000000;
-}
-
-.product-container h3{
-  font-size: 30px;
-}
-
-.product-container img{
-  width: 300px;
-  height: 500px;
-  border-radius: 5px;
-}
-
-.button-add{
-  font-size: 16px;
-  text-align: center;
-  border-radius: 8px;
-  padding: 10px 20px;
+  min-width: 0;
+  word-wrap: break-word;
   background-color: #f5f5f5;
-  color: #000000;
-  border: 2px solid;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.2);
 }
 
-.button-add:hover{
-  background-color: #f5f5dc;
-  transition-duration: 0.4s;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+  width: 270px;
+  height: 380px;
+}
+
+.color-button {
   color: #000000;
+  background-color: #f5f5dc;
+  border-color: #000000;
+
+  display: flex;
+  justify-content: center;
 }
 
 /*CONTACTO*/
