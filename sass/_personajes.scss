@@ -1,0 +1,106 @@
+/*Personajes*/
+.personajesBanner{
+  display: inline-block;
+  width: 100%;
+  height: 30vh;
+}
+
+.personajesMain{
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.personajesTitulo{
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+    justify-content: center;
+}
+.personajesDescripcion{
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.div-glosario{
+  margin: 5rem;
+  padding: 1rem;
+  border: #000000 1px solid;
+
+  display: flex;
+  justify-content: center;
+
+    .personajesGlosario{
+      margin: 2rem;
+      padding: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      align-items: baseline;
+    }
+      .personajesGlosario__todos{
+        list-style: none;
+        text-decoration: none;
+      }
+        .personajesGlosario__todosA{
+          padding: 10px;
+          color: #000000;
+          list-style: none;
+          text-decoration: none;
+        }
+}
+
+.container-personaje{
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+    .contenedor-imagen{
+      width: 30%;
+      height: 100%;
+
+        img{
+          width: 350px;
+          height: 350px;
+        }
+    }
+
+    .contenedor-texto{
+      width: 70%;
+      height: 100%;
+
+      .titulo{
+        width: 100%;
+        height: 90%;
+
+        display: flex;
+        justify-content: center;
+
+        h3{
+          font-weight: 400;
+          font-size: 2rem;
+          padding: 0.5rem;
+        }
+      }
+
+      .parrafo{
+        width: 90%;
+        height: 90%;
+        p{
+        font-size: 1rem;
+        padding: 0.5rem;
+        }
+      }
+    }
+}
+
+
+
