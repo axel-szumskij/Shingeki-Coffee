@@ -1,7 +1,7 @@
 /*Personajes*/
 .personajesBanner{
   display: inline-block;
-  width: 100%;
+  width: 100vw;
   height: 30vh;
 }
 
@@ -16,8 +16,9 @@
 .personajesTitulo{
   font-weight: 700;
   font-size: 2rem;
-  margin: 2rem;
+  margin: auto;
   padding: 2rem;
+  
   display: flex;
     justify-content: center;
 }

@@ -1,9 +1,10 @@
 /*STORE*/
-.shop-main {
+main{
   background-color: #f5f5f5;
 }
+
 .banner img {
-  width: 100%;
+  width: 100vw;
   height: 30vh;
 }
 
@@ -51,7 +52,7 @@
           width: 270px;
           height: 380px;
         }
-        
+
           .color-button {
             color: #000000;
             background-color: #f5f5dc;
