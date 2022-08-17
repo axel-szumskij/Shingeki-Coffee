@@ -265,7 +265,7 @@
   grid-row-start: span 2;
 }
 
-/*cosas generlaes, voy a usar selectores por etiqueta para elementos de html que quiero que sean iguales en todas las paginas*/
+/*cosas generales, voy a usar selectores por etiqueta para elementos de html que quiero que sean iguales en todas las paginas*/
 * {
   padding: 0;
   margin: 0;
