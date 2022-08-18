@@ -28,7 +28,7 @@
   display: flex;
   justify-content: space-around;
 }
-.index-div .personajes-article {
+.index-div .index-article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,59 +36,27 @@
   margin: 5rem;
   padding: 5rem;
 }
-.index-div .personajes-article .personajes-article__imagen {
+.index-div .index-article img {
   width: 532px;
   height: 532px;
   padding: 1rem;
   border-radius: 5px;
 }
-.index-div .personajes-article .personajes-article__titulo {
+.index-div .index-article h2 {
   font-weight: 400;
   font-size: 2rem;
   padding: 1rem;
 }
-.index-div .personajes-article .personajes-article__texto {
+.index-div .index-article p {
   font-size: 1rem;
   padding: 1rem;
 }
-.index-div .personajes-article .personajes-article__boton {
+.index-div .index-article button {
   font-size: 16px;
   text-align: center;
   border-radius: 8px;
   padding: 10px 20px;
-  background-color: #f5f5f5;
-  color: #000000;
-  border: 2px solid;
-}
-.index-div .universo-article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem;
-  padding: 5rem;
-}
-.index-div .universo-article .universo-article__imagen {
-  width: 532px;
-  height: 532px;
-  padding: 1rem;
-  border-radius: 5px;
-}
-.index-div .universo-article .universo-article__titulo {
-  font-weight: 400;
-  font-size: 2rem;
-  padding: 1rem;
-}
-.index-div .universo-article .universo-article__texto {
-  font-size: 1rem;
-  padding: 1rem;
-}
-.index-div .universo-article .universo-article__boton {
-  font-size: 16px;
-  text-align: center;
-  border-radius: 8px;
-  padding: 10px 20px;
-  background-color: #f5f5f5;
+  background-color: #f5f5dc;
   color: #000000;
   border: 2px solid;
 }
@@ -125,7 +93,7 @@
   text-align: center;
   border-radius: 8px;
   padding: 10px 20px;
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
   color: #000000;
   border: 2px solid;
 }
@@ -157,7 +125,7 @@
   text-align: center;
   border-radius: 8px;
   padding: 10px 20px;
-  background-color: #f5f5f5;
+  background-color: #f5f5dc;
   color: #000000;
   border: 2px solid;
 }
@@ -361,6 +329,10 @@
   padding: 0.5rem;
 }
 
+.izquierda {
+  flex-direction: row-reverse;
+}
+
 /*STORE*/
 main {
   background-color: #f5f5f5;
@@ -464,7 +436,8 @@ main {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
-.paises .card {
+
+.card {
   width: 100%;
   height: 100%;
   position: inherit;
@@ -480,12 +453,14 @@ main {
   background-clip: border-box;
   border: 2px solid rgba(0, 0, 0, 0.2);
 }
-.paises .card .card-body {
+
+.card-body {
   flex: 1 1 auto;
   margin: 5px;
   padding: 5px;
 }
-.paises .card .card img {
+
+.card img {
   width: 200px;
   height: 200px;
 }
@@ -499,8 +474,7 @@ main {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-
-.maria {
+.grid-universo .maria {
   margin: 5px;
   padding: 5px;
   border: 1px solid #000000;
@@ -510,20 +484,19 @@ main {
   align-items: center;
   grid-area: maria;
 }
-.maria h2 {
+.grid-universo .maria h2 {
   font-size: 2rem;
   font-weight: 400;
 }
-.maria .maria img {
+.grid-universo .maria img {
   width: 200px;
   height: 200px;
 }
-.maria .maria p {
+.grid-universo .maria p {
   font-size: 1rem;
   font-weight: 100;
 }
-
-.rose {
+.grid-universo .rose {
   margin: 5px;
   padding: 5px;
   border: 1px solid #000000;
@@ -533,20 +506,19 @@ main {
   align-items: center;
   grid-area: rose;
 }
-.rose .rose h2 {
+.grid-universo .rose h2 {
   font-size: 2rem;
   font-weight: 400;
 }
-.rose .rose img {
+.grid-universo .rose img {
   width: 200px;
   height: 200px;
 }
-.rose .rose p {
+.grid-universo .rose p {
   font-size: 1rem;
   font-weight: 100;
 }
-
-.sina {
+.grid-universo .sina {
   margin: 5px;
   padding: 5px;
   border: 1px solid #000000;
@@ -556,15 +528,15 @@ main {
   align-items: center;
   grid-area: sina;
 }
-.sina .sina h2 {
+.grid-universo .sina h2 {
   font-size: 2rem;
   font-weight: 400;
 }
-.sina .sina img {
+.grid-universo .sina img {
   width: 200px;
   height: 200px;
 }
-.sina .sina p {
+.grid-universo .sina p {
   font-size: 1rem;
   font-weight: 100;
 }
@@ -620,7 +592,7 @@ textarea {
 /*NAV BOOTSTRAP*/
 .navbar {
   top: 0;
-  background-color: #fdfdeb;
+  background-color: #f5f5dc;
 }
 
 .navbar img {
@@ -655,7 +627,7 @@ footer {
 }
 
 footer h6 {
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 1rem;
   margin: 8px;
 }
@@ -698,268 +670,6 @@ footer p {
   padding: 5px;
   font-size: 1rem;
   font-weight: 700;
-}
-
-/*SHOP*/
-.banner img {
-  width: 100%;
-  height: 30vh;
-}
-
-.store-intro h2 {
-  font-size: 30px;
-  font-weight: 700;
-  margin: 20px;
-  display: flex;
-  flex-direction: inherit;
-  justify-content: center;
-}
-
-.shop-main {
-  background-color: #f5f5f5;
-}
-
-.page-content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(9, 1fr);
-  justify-items: center;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-.card {
-  width: 100%;
-  height: 550px;
-  position: inherit;
-  padding: 5px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #f5f5f5;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card-img, .card-img-bottom, .card-img-top {
-  width: 270px;
-  height: 380px;
-}
-
-.color-button {
-  color: #000000;
-  background-color: #f5f5dc;
-  border-color: #000000;
-  display: flex;
-  justify-content: center;
-}
-
-/*CONTACTO*/
-.contacto-banner img {
-  display: inline-block;
-  width: 100%;
-  height: 30vh;
-}
-
-.contacto {
-  background-color: #f5f5f5;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.contacto-container {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 50%;
-}
-
-textarea {
-  float: left;
-  width: 100%;
-  height: auto;
-  resize: none;
-}
-
-.botones {
-  display: flex;
-}
-
-.botones input {
-  margin: auto;
-}
-
-/*Universo*/
-.universo-banner {
-  width: 100%;
-  height: 30vh;
-}
-
-main {
-  background-color: #f5f5f5;
-  width: 100%;
-}
-
-.universo-titulo {
-  padding: 10px;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-}
-
-.universo-titulo2 {
-  font-weight: 300;
-  padding: 10px;
-  text-decoration: 1px underline #000000;
-  display: flex;
-  justify-content: center;
-}
-
-.universo-titulo3 {
-  font-weight: 300;
-  padding: 10px;
-  text-decoration: 1px underline #000000;
-  display: flex;
-  justify-content: center;
-}
-
-.paises {
-  margin: 20px;
-  padding: 1em;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-}
-
-.card {
-  width: 100%;
-  height: 100%;
-  position: inherit;
-  padding: 5px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #f5f5f5;
-  background-clip: border-box;
-  border: 2px solid rgba(0, 0, 0, 0.2);
-}
-
-.card-body {
-  flex: 1 1 auto;
-  margin: 5px;
-  padding: 5px;
-}
-
-.card img {
-  width: 200px;
-  height: 200px;
-}
-
-.grid-universo {
-  width: 100%;
-  display: grid;
-  grid-template-areas: "maria rose" "sina sina";
-  grid-template-columns: 2fr, 2fr;
-  grid-template-rows: 2fr, 2fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-.maria {
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid #000000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  grid-area: maria;
-}
-
-.maria h2 {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.maria img {
-  width: 200px;
-  height: 200px;
-}
-
-.maria p {
-  font-size: 1rem;
-  font-weight: 100;
-}
-
-.rose {
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid #000000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  grid-area: rose;
-}
-
-.rose h2 {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.rose img {
-  width: 200px;
-  height: 200px;
-}
-
-.rose p {
-  font-size: 1rem;
-  font-weight: 100;
-}
-
-.sina {
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid #000000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  grid-area: sina;
-}
-
-.sina h2 {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.sina img {
-  width: 200px;
-  height: 200px;
-}
-
-.sina p {
-  font-size: 1rem;
-  font-weight: 100;
 }
 
 /*ESTILOS MOBILE*/
@@ -1026,6 +736,21 @@ main {
   /*UNIVERSO*/
   .paises {
     grid-template-columns: 1fr;
+  }
+  /*personajes*/
+  .personajesGlosario {
+    align-items: center;
+  }
+  .personajesTitulo {
+    margin: auto;
+  }
+  .container-personaje {
+    flex-direction: column;
+  }
+  .contenedor-imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -1106,6 +831,14 @@ main {
   }
   .personajesTitulo {
     margin: auto;
+  }
+  .container-personaje {
+    flex-direction: column;
+  }
+  .contenedor-imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   /*store*/
   .page-content {
