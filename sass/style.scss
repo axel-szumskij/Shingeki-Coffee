@@ -106,59 +106,23 @@ footer p{
 @media only screen and (max-width:992px){
   /*INDEX*/
   .index-div{
-    flex-direction: inherit;
+    flex-direction: column;
     margin: 2rem;
     padding: 2rem;
   }
-  .personajes-article{
+  .index-article{
     margin: 5px;
     padding: 5px;
   }
-  .universo-article{
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .index-divdos{
-    flex-direction: inherit;
-    margin: 2rem;
-    padding: 2rem;
-  }
-  .shop-article{
-    margin: 5px;
-    padding: 5px;
-  }
-  .contacto-article{
-    margin: 5px;
-    padding: 5px;
-  }
+  
   .video-div{
-    flex-direction: inherit;
+    flex-direction: column;
     margin: 2rem;
     padding: 2rem;
   }
   .video-article{
     margin: 5px;
     padding: 5px;
-  }
-  .video-dos-article{
-    margin: 5px;
-    padding: 5px;
-  }
-  
-  .gallery__item:nth-child(4) {
-    grid-column-start: span 3;
-  }
-  .gallery__item:nth-child(5) {
-  grid-column-start: span 3;
-  grid-row-start: span 3;
-  }
-  .gallery__item:nth-child(6) {
-  grid-row-start: span 3;
-  }
-  .gallery__item:nth-child(10) {
-    grid-column-start: span 1;
-    grid-row-start: span 3;
   }
 
   /*STORE*/
@@ -212,50 +176,16 @@ footer p{
   /*INDEX*/
   .index-div{
     flex-direction: column;
+    align-items: center;
   }
-  .personajes-article{
+  .index-article{
     margin: 2rem;
     padding: 2rem;
   }
 
-  .personajes-article__imagen {
-    width: 420px;
-    height: 420px;
-  }
-
-  .universo-article{
-    flex-direction: column;
-    margin: 2rem;
-    padding: 2rem;
-  }
-
-  .universo-article__imagen {
-    width: 420px;
-    height: 420px;
-  }
-
-  .index-divdos{
-    flex-direction: column;
-  }
-
-  .shop-article{
-    margin: 2rem;
-    padding: 2rem;
-  }
-
-  .shop-article__imagen {
-    width: 420px;
-    height: 420px;
-  }
-
-  .contacto-article{
-    margin: 2rem;
-    padding: 2rem;
-  }
-
-  .contacto-article__imagen {
-    width: 420px;
-    height: 420px;
+  .index-article img{
+    width: 250px;
+    height: 250px;
   }
 
   .video-article{
@@ -263,22 +193,9 @@ footer p{
     padding: 2rem;
   }
 
-  .video-dos-article {
-    margin: 2rem;
-    padding: 2rem;
-  }
-
   .video-div{
     flex-direction: column;
-  }
-
-  .gallery__item:nth-child(9) {
-    grid-row-start: span 4;
-  }
-
-  .gallery__item:nth-child(10) {
-    grid-column-start: span 2;
-    grid-row-start: span 2;
+    align-items: center;
   }
 
   /*personajes*/
