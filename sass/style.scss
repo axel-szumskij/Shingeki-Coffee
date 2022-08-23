@@ -121,7 +121,7 @@ footer p{
 
 
 /*ESTILOS MOBILE*/
-@media only screen and (max-width:992px){
+@media only screen and (max-width:990px){
   /*INDEX*/
   .index-div{
     flex-direction: column;
@@ -179,6 +179,11 @@ footer p{
   nav{
     flex-direction: column;
   }
+
+  .navbar img {
+    width: 60px;
+    height: 60px;
+}
 
   .footer-div{
     padding: 5px;

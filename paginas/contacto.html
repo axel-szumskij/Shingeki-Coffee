@@ -45,110 +45,112 @@
         </div>
     </nav>
     <header class="contacto-banner">
-        <img src="../assets/banners/contacto-banner.jpg" alt="Titán de Ataque">
+        <img src="../assets/banners/banner-contacto.jpg" alt="Titán de Ataque">
     </header>
     <main class="body-contact">
-        <h2>Contacto</h2>
-        <form action="procesar.php" name="contacto" method="post" class="contacto-container">
-            <legend>Dejanos tu comentario</legend>
-                <label>Nombre y Apellido:
-                    <input type="text" name="nombre y apellido" placeholder="Eren Yeager" required>
+        <h2 class="titulo">Contacto</h2>
+        <div class="contenedor-formulario">
+            <form action="procesar.php" name="contacto" method="post" class="contacto-container">
+                <legend>Dejanos tu comentario</legend>
+                    <label>Nombre y Apellido:
+                        <input type="text" name="nombre y apellido" placeholder="Eren Yeager" required>
+                    </label>
+                <br>
+                <label>Contraseña:
+                    <input type="password" name="contraseña" placeholder="1234">
                 </label>
-            <br>
-            <label>Contraseña:
-                <input type="password" name="contraseña" placeholder="1234">
-            </label>
-            <br>
-            <label>Email:
-                <input type="email" name="email" placeholder="abc@servidor.com" required>
-            </label>
-            <br>
-            <h2>Conoces la obra Shingeki no Kyojin?</h2>
-            <br>
-            <label for="conoces la obra shingeki no kyojin?">Si
-                <input type="radio" name="sexo" value="si">
-            </label>
-            <br>
-            <label for="conoces la obra shingeki no kyojin?">No
-                <input type="radio" name="sexo" value="no">
-            </label>
-            <br>
-            <h2>Que te parece la pagina?</h2>
-            <br>
-            <label for="que te parece la pagina?">Explica bien las bases para conocer la obra
-                <input type="checkbox" name="queteparecelapagina?" value="explicabienlasbasesparaconocerlaobra">
-            </label>
-            <br>
-            <label for="queteparecelapagina">Hay cosas para mejorar
-                <input type="checkbox" name="queteparecelapagina?" value="haycosasparamejorar">
-            </label>
-            <br>
-            <label for="que te parece la pagina?">Me gusto el apartado de manga
-                <input type="checkbox" name="queteparecelapagina?" value="megustoelapartadodemanga">
-            </label>
-            <br>
-            <label for="que te parece la pagina?">Me gustan los personajes
-                <input type="checkbox" name="queteparecelapagina?" value="megustanlospersonajes">
-            </label>
-            <br>
-            <label for="que te parece la pagina?">Facil adquirir los mangas
-                <input type="checkbox" name="queteparecelapagina?" value="faciladquirirlosmangas">
-            </label>
-            <br>
-            <br>
-            <h2>Consulta por disponibilidad de alguno de los volumenes del manga:
-            </h2>
-            <br>
-            <select name="Disponibilidad">
-                <option value="ninguno">Ninguno</option>
-                <option value="volumen1">Volumen 1</option>
-                <option value="volumen2">Volumen 2</option>
-                <option value="volumen3">Volumen 3</option>
-                <option value="volumen4">Volumen 4</option>
-                <option value="volumen5">Volumen 5</option>
-                <option value="volumen6">Volumen 6</option>
-                <option value="volumen7">Volumen 7</option>
-                <option value="volumen8">Volumen 8</option>
-                <option value="volumen9">Volumen 9</option>
-                <option value="volumen10">Volumen 10</option>
-                <option value="volumen11">Volumen 11</option>
-                <option value="volumen12">Volumen 12</option>
-                <option value="volumen13">Volumen 13</option>
-                <option value="volumen14">Volumen 14</option>
-                <option value="volumen15">Volumen 15</option>
-                <option value="volumen16">Volumen 16</option>
-                <option value="volumen17">Volumen 17</option>
-                <option value="volumen18">Volumen 18</option>
-                <option value="volumen19">Volumen 19</option>
-                <option value="volumen20">Volumen 20</option>
-                <option value="volumen21">Volumen 21</option>
-                <option value="volumen22">Volumen 22</option>
-                <option value="volumen23">Volumen 23</option>
-                <option value="volumen24">Volumen 24</option>
-                <option value="volumen25">Volumen 25</option>
-                <option value="volumen26">Volumen 26</option>
-                <option value="volumen27">Volumen 27</option>
-                <option value="volumen28">Volumen 28</option>
-                <option value="volumen29">Volumen 29</option>
-                <option value="volumen30">Volumen 30</option>
-                <option value="volumen31">Volumen 31</option>
-                <option value="volumen32">Volumen 32</option>
-                <option value="volumen33">Volumen 33</option>
-                <option value="volumen34">Volumen 34</option>
-            </select>
-            <br>
-            <h2>Deja tu comentario:</h2>
-            <br>
-                <textarea name="Comentario" id="" cols="30" rows="10" required></textarea>
-            <br>
-            <div class="botones">
-                <input type="submit" value="Enviar">
                 <br>
-                <input type="reset" name="borrar formulario" value="Borrar">
+                <label>Email:
+                    <input type="email" name="email" placeholder="abc@servidor.com" required>
+                </label>
                 <br>
-                <input type="button" value="Sin acciones">
-            </div>
-        </form>
+                <h2>Conoces la obra Shingeki no Kyojin?</h2>
+                <br>
+                <label for="conoces la obra shingeki no kyojin?">Si
+                    <input type="radio" name="sexo" value="si">
+                </label>
+                <br>
+                <label for="conoces la obra shingeki no kyojin?">No
+                    <input type="radio" name="sexo" value="no">
+                </label>
+                <br>
+                <h2>Que te parece la pagina?</h2>
+                <br>
+                <label for="que te parece la pagina?">Explica bien las bases para conocer la obra
+                    <input type="checkbox" name="queteparecelapagina?" value="explicabienlasbasesparaconocerlaobra">
+                </label>
+                <br>
+                <label for="queteparecelapagina">Hay cosas para mejorar
+                    <input type="checkbox" name="queteparecelapagina?" value="haycosasparamejorar">
+                </label>
+                <br>
+                <label for="que te parece la pagina?">Me gusto el apartado de manga
+                    <input type="checkbox" name="queteparecelapagina?" value="megustoelapartadodemanga">
+                </label>
+                <br>
+                <label for="que te parece la pagina?">Me gustan los personajes
+                    <input type="checkbox" name="queteparecelapagina?" value="megustanlospersonajes">
+                </label>
+                <br>
+                <label for="que te parece la pagina?">Facil adquirir los mangas
+                    <input type="checkbox" name="queteparecelapagina?" value="faciladquirirlosmangas">
+                </label>
+                <br>
+                <br>
+                <h2>Consulta por disponibilidad de alguno de los volumenes del manga:
+                </h2>
+                <br>
+                <select name="Disponibilidad">
+                    <option value="ninguno">Ninguno</option>
+                    <option value="volumen1">Volumen 1</option>
+                    <option value="volumen2">Volumen 2</option>
+                    <option value="volumen3">Volumen 3</option>
+                    <option value="volumen4">Volumen 4</option>
+                    <option value="volumen5">Volumen 5</option>
+                    <option value="volumen6">Volumen 6</option>
+                    <option value="volumen7">Volumen 7</option>
+                    <option value="volumen8">Volumen 8</option>
+                    <option value="volumen9">Volumen 9</option>
+                    <option value="volumen10">Volumen 10</option>
+                    <option value="volumen11">Volumen 11</option>
+                    <option value="volumen12">Volumen 12</option>
+                    <option value="volumen13">Volumen 13</option>
+                    <option value="volumen14">Volumen 14</option>
+                    <option value="volumen15">Volumen 15</option>
+                    <option value="volumen16">Volumen 16</option>
+                    <option value="volumen17">Volumen 17</option>
+                    <option value="volumen18">Volumen 18</option>
+                    <option value="volumen19">Volumen 19</option>
+                    <option value="volumen20">Volumen 20</option>
+                    <option value="volumen21">Volumen 21</option>
+                    <option value="volumen22">Volumen 22</option>
+                    <option value="volumen23">Volumen 23</option>
+                    <option value="volumen24">Volumen 24</option>
+                    <option value="volumen25">Volumen 25</option>
+                    <option value="volumen26">Volumen 26</option>
+                    <option value="volumen27">Volumen 27</option>
+                    <option value="volumen28">Volumen 28</option>
+                    <option value="volumen29">Volumen 29</option>
+                    <option value="volumen30">Volumen 30</option>
+                    <option value="volumen31">Volumen 31</option>
+                    <option value="volumen32">Volumen 32</option>
+                    <option value="volumen33">Volumen 33</option>
+                    <option value="volumen34">Volumen 34</option>
+                </select>
+                <br>
+                <h2>Deja tu comentario:</h2>
+                <br>
+                    <textarea name="Comentario" id="" cols="30" rows="10" required></textarea>
+                <br>
+                <div class="botones">
+                    <input type="submit" value="Enviar">
+                    <br>
+                    <input type="reset" name="borrar formulario" value="Borrar">
+                    <br>
+                    <input type="button" value="Sin acciones">
+                </div>
+            </form>
+        </div>
     </main>
     <footer id="piedepagina">
         <div class="footer-div">

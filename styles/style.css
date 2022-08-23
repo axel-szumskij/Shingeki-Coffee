@@ -1,9 +1,12 @@
 /*index*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
-.imagenBanner {
-  display: inline-block;
-  width: 100%;
-  height: 30vh;
+header {
+  display: flex;
+  justify-content: center;
+}
+header .imagenBanner {
+  width: 60%;
+  height: 20vh;
 }
 
 .index-main {
@@ -12,9 +15,10 @@
 }
 
 .titulo-pagina {
-  margin: 5px;
-  padding: 5px;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: auto;
+  padding: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -88,10 +92,14 @@
 }
 
 /*Personajes*/
-.personajesBanner {
-  display: inline-block;
-  width: 100vw;
-  height: 30vh;
+.personajes-banner {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.personajes-banner img {
+  width: 60%;
+  height: 20vh;
 }
 
 .personajesMain {
@@ -192,17 +200,21 @@ main {
   background-color: #f5f5f5;
 }
 
-.banner img {
-  width: 100vw;
-  height: 30vh;
+.store-banner {
+  display: flex;
+  justify-content: center;
+}
+.store-banner img {
+  width: 60%;
+  height: 20vh;
 }
 
 .store-intro h2 {
-  font-size: 30px;
   font-weight: 700;
-  margin: 20px;
+  font-size: 2rem;
+  margin: auto;
+  padding: 2rem;
   display: flex;
-  flex-direction: inherit;
   justify-content: center;
 }
 
@@ -249,8 +261,13 @@ main {
 
 /*Universo*/
 .universo-banner {
-  width: 100%;
-  height: 30vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.universo-banner img {
+  width: 60%;
+  height: 20vh;
 }
 
 main {
@@ -259,8 +276,10 @@ main {
 }
 
 .universo-titulo {
-  padding: 10px;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: auto;
+  padding: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -396,10 +415,28 @@ main {
 }
 
 /*CONTACTO*/
+.contacto-banner {
+  display: flex;
+  justify-content: center;
+}
 .contacto-banner img {
-  display: inline-block;
-  width: 100%;
-  height: 30vh;
+  width: 60%;
+  height: 20vh;
+}
+
+.titulo {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contacto {
@@ -414,23 +451,25 @@ main {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   width: 50%;
 }
-
-textarea {
+.contacto-container legend {
+  display: flex;
+  justify-content: center;
+}
+.contacto-container textarea {
   float: left;
   width: 100%;
   height: auto;
   resize: none;
 }
-
-.botones {
+.contacto-container .botones {
   display: flex;
+  justify-content: center;
 }
-
-.botones input {
-  margin: auto;
+.contacto-container .botones input {
+  margin: 10px;
 }
 
 /*cosas generlaes, voy a usar selectores por etiqueta para elementos de html que quiero que sean iguales en todas las paginas*/
@@ -522,7 +561,7 @@ footer p {
 }
 
 /*ESTILOS MOBILE*/
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
   /*INDEX*/
   .index-div {
     flex-direction: column;
@@ -571,6 +610,10 @@ footer p {
   /*estilos generales*/
   nav {
     flex-direction: column;
+  }
+  .navbar img {
+    width: 60px;
+    height: 60px;
   }
   .footer-div {
     padding: 5px;

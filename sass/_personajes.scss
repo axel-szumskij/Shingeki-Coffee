@@ -1,8 +1,14 @@
 /*Personajes*/
-.personajesBanner{
-  display: inline-block;
-  width: 100vw;
-  height: 30vh;
+.personajes-banner{
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+
+    img{
+      width: 60%;
+      height: 20vh;
+    }
 }
 
 .personajesMain{

@@ -3,17 +3,21 @@ main{
   background-color: #f5f5f5;
 }
 
-.banner img {
-  width: 100vw;
-  height: 30vh;
+.store-banner{
+  display: flex;
+  justify-content: center;
+    img {
+      width:60%;
+      height:20vh;
+    }
 }
 
 .store-intro h2 {
-  font-size: 30px;
   font-weight: 700;
-  margin: 20px;
+  font-size: 2rem;
+  margin: auto;
+  padding: 2rem;
   display: flex;
-  flex-direction: inherit;
   justify-content: center;
 }
 
