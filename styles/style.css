@@ -38,8 +38,8 @@ header .imagenBanner {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
-  padding: 5rem;
+  margin: 2rem;
+  padding: 2rem;
 }
 .index-div .index-article img {
   width: 532px;
@@ -77,8 +77,8 @@ header .imagenBanner {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
-  padding: 5rem;
+  margin: 2rem;
+  padding: 2rem;
 }
 .video-div .video-article .video-article__titulo {
   font-weight: 400;
