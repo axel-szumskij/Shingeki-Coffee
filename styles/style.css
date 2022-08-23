@@ -73,6 +73,7 @@ header .imagenBanner {
 }
 .index-div .index-article button:hover {
   background-color: #93aa7d;
+  transition: 0.2s;
 }
 .index-div .index-article button a {
   color: #000000;
@@ -291,6 +292,7 @@ main {
 }
 .page-content .color-button:hover {
   background-color: #93aa7d;
+  transition: 0.2s;
 }
 
 /*Universo*/
