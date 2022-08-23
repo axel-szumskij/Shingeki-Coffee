@@ -39,7 +39,7 @@ header .imagenBanner {
   justify-content: center;
   align-items: center;
   margin: 2rem;
-  padding: auto;
+  padding: 10px;
 }
 .index-div .index-article img {
   width: 532px;
