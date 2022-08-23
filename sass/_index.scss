@@ -113,6 +113,7 @@ header{
       font-weight: 400;
       font-size: 2rem;
       padding: 1rem;
+      text-decoration: underline 1px #000000;
     }
   
     .video-article__texto{
@@ -127,6 +128,15 @@ header{
   }
 }
 
+.titulo-galeria{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-decoration: underline 1px #000000;
+
+  display: flex;
+  justify-content: center;
+}
 
 
 
