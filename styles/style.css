@@ -39,7 +39,7 @@ header .imagenBanner {
   justify-content: center;
   align-items: center;
   margin: 2rem;
-  padding: 2rem;
+  padding: auto;
 }
 .index-div .index-article img {
   width: 532px;
@@ -61,6 +61,7 @@ header .imagenBanner {
   text-align: center;
   border-radius: 8px;
   padding: 10px 20px;
+  margin-bottom: 10px;
   background-color: #f5f5dc;
   color: #000000;
   border: 2px solid;
