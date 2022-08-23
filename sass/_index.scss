@@ -42,8 +42,14 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin: 5rem 0 5rem 0;
     padding: 10px;
+    transition: 0.3s;
+
+      &:hover{
+        box-shadow: 1px 1px 30px;
+        transform: scale(1.2);
+      }
   
       img{
         width: 532px;
@@ -65,14 +71,24 @@ header{
       }
   
       button{
-        font-size: 16px;
+        font-size: 16px;        
         text-align: center;
         border-radius: 8px;
         padding: 10px 20px;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
         background-color: #f5f5dc;
         color: #000000;
         border: 2px solid;
+
+          &:hover{
+            background-color: whitesmoke;
+          }
+      
+
+          a{
+            color: #000000;
+            text-decoration: none;
+          }
       }
   }
 }

@@ -38,8 +38,13 @@ header .imagenBanner {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 5rem 0 5rem 0;
   padding: 10px;
+  transition: 0.3s;
+}
+.index-div .index-article:hover {
+  box-shadow: 1px 1px 30px;
+  transform: scale(1.2);
 }
 .index-div .index-article img {
   width: 532px;
@@ -61,10 +66,17 @@ header .imagenBanner {
   text-align: center;
   border-radius: 8px;
   padding: 10px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   background-color: #f5f5dc;
   color: #000000;
   border: 2px solid;
+}
+.index-div .index-article button:hover {
+  background-color: whitesmoke;
+}
+.index-div .index-article button a {
+  color: #000000;
+  text-decoration: none;
 }
 
 .video-div {
