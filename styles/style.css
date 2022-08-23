@@ -72,7 +72,7 @@ header .imagenBanner {
   border: 2px solid;
 }
 .index-div .index-article button:hover {
-  background-color: whitesmoke;
+  background-color: #93aa7d;
 }
 .index-div .index-article button a {
   color: #000000;
