@@ -45,6 +45,14 @@
       justify-content: center;
     }
 
+    .si-no{
+      display: flex;
+      justify-content: center;
+        label{
+          margin: 10px;
+        }
+    }
+
     textarea {
       float: left;
       width: 100%;

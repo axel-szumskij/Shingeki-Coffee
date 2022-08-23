@@ -461,6 +461,13 @@ main {
   display: flex;
   justify-content: center;
 }
+.contacto-container .si-no {
+  display: flex;
+  justify-content: center;
+}
+.contacto-container .si-no label {
+  margin: 10px;
+}
 .contacto-container textarea {
   float: left;
   width: 100%;
