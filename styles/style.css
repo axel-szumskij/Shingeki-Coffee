@@ -591,6 +591,26 @@ footer p {
   padding: 10px;
 }
 
+.bi-instagram:hover {
+  color: #ec1fad;
+  transition: 0.2s;
+}
+
+.bi-twitter:hover {
+  color: #1d9bf0;
+  transition: 0.2s;
+}
+
+.bi-github:hover {
+  color: #f5f5dc;
+  transition: 0.2s;
+}
+
+.bi-pinterest:hover {
+  color: #b7071c;
+  transition: 0.2s;
+}
+
 .footer-divdos img {
   background-color: 5px;
   background-color: 50px;

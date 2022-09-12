@@ -106,8 +106,26 @@ footer p{
   font-size: 2.5rem;
   color: #ffffff;
   padding: 10px;
-  
+
 }
+
+.bi-instagram:hover{
+  color: #ec1fad;
+  transition: 0.2s;
+}
+.bi-twitter:hover{
+  color: #1d9bf0;
+  transition: 0.2s;
+}
+.bi-github:hover{
+  color: #f5f5dc;
+  transition: 0.2s;
+}
+.bi-pinterest:hover{
+  color: #b7071c;
+  transition: 0.2s;
+}
+
 
 .footer-divdos img{
   background-color: map-get($map: $imagen, $key:padding);
