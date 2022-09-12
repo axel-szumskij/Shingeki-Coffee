@@ -144,22 +144,22 @@ footer p{
   /*INDEX*/
   .index-div{
     flex-direction: column;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
   .index-article{
-    margin: 5px;
-    padding: 5px;
+    margin: auto;
+    padding: auto;
   }
   
   .video-div{
     flex-direction: column;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
   .video-article{
-    margin: 5px;
-    padding: 5px;
+    margin: auto;
+    padding: auto;
   }
 
   /*STORE*/
@@ -205,13 +205,13 @@ footer p{
 }
 
   .footer-div{
-    padding: 5px;
+    padding: 2px;
     justify-content: space-evenly;
     flex-direction: column;
   }
   
   .footer-divdos {
-    padding: 5px;
+    padding: 2px;
     flex-direction: column;
   }
 
